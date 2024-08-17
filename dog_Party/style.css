@@ -35,7 +35,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    color: #ffffff;
+    color: #048eaa;
   }
   .hero h1 {
     font-size: 2.5em;
@@ -44,13 +44,14 @@ body {
     border-radius: 50%;
     border-style: solid ;
     border-color: #048eaa;
-    margin: 20px 0;
+    margin: 10px;
+    width: 200px;
   }
   .hero form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
   }
   .hero button {
     padding: 10px 20px;
@@ -91,11 +92,16 @@ body {
     cursor: pointer;
   }
   .footer {
-    color: #ffffff;
-    width: auto;
-    height: 150px;
-    display: flex;
-    gap: 30px;
-    text-align: center;
+    height: auto;
     background-color: #048eaa;
+  }
+  .footer h3 {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer p {
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
   }
